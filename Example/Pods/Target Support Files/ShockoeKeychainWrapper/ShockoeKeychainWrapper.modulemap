@@ -1,0 +1,6 @@
+framework module ShockoeKeychainWrapper {
+  umbrella header "ShockoeKeychainWrapper-umbrella.h"
+
+  export *
+  module * { export * }
+}

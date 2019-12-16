@@ -1,0 +1,16 @@
+PODS:
+  - ShockoeKeychainWrapper (0.1.0)
+
+DEPENDENCIES:
+  - ShockoeKeychainWrapper (from `../`)
+
+EXTERNAL SOURCES:
+  ShockoeKeychainWrapper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ShockoeKeychainWrapper: 4f22099d51211c39819c54a383e15e1350d9ccbe
+
+PODFILE CHECKSUM: 3c12485bcf7eaa4e0b08ce3f7ea1cc79fb902920
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0792B4FF65AB9A2FC27CC30779045652 /* Pods-ShockoeKeychainWrapper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 340DC54AAA1BC336B44A8678E876B9FB /* Pods-ShockoeKeychainWrapper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0875FE06A6FA030A78D93D3DC292982F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0E05233C39F1D36C9FE1632C48469B0D /* Pods-ShockoeKeychainWrapper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB78BBECFDF95A39CA1E6F0D7A2EFF /* Pods-ShockoeKeychainWrapper_Example-dummy.m */; };
+		219EB32A3E227A6BF855AE86E603811C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3491387935CE7D3E9C53C1FD39BEECEA /* Pods-ShockoeKeychainWrapper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9733C43F411D0EBAF9333D8FAB74573 /* Pods-ShockoeKeychainWrapper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A5BC2A2CFF19941543507C7CF4ED686 /* ShockoeKeychainWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D48A3A57936C80CECF43924BE37E9D6 /* ShockoeKeychainWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3C66155E0EF79F3BE42540FB6ACB251 /* ShockoeKeychainWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 396E14D13FE793A2A65EC2DC54C16021 /* ShockoeKeychainWrapper-dummy.m */; };
+		D04E67B323A8193A00D6BA7B /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04E67B123A8193900D6BA7B /* KeychainWrapper.swift */; };
+		D04E67B423A8193A00D6BA7B /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04E67B223A8193900D6BA7B /* KeychainItemAccessibility.swift */; };
+		F2A9344BAAED8572E31E43EA157C5A0C /* Pods-ShockoeKeychainWrapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D17C9455F842D5C26D8602A03AF8682C /* Pods-ShockoeKeychainWrapper_Tests-dummy.m */; };
+		F4A8D8C65A31E9E44A2DABE12CE98D63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59A704E14C004184E21061346A0415D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE3C8138EB4017AAD2239142200D007;
+			remoteInfo = "Pods-ShockoeKeychainWrapper_Example";
+		};
+		6A52304CF6511B0B9CEC361203C183D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 095A03C7C5FBCE634E695B019DD3B103;
+			remoteInfo = ShockoeKeychainWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05AC5E608E9AA5F39C9799DFC7F856DA /* Pods_ShockoeKeychainWrapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShockoeKeychainWrapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		095B7229DC6F48ECE4C35ECEA1B72643 /* Pods-ShockoeKeychainWrapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShockoeKeychainWrapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		09CEE684CDC6C9CBD593DA60EAFD37E2 /* Pods-ShockoeKeychainWrapper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShockoeKeychainWrapper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2AEC39803496F69A3E87749CD42AD1BB /* Pods-ShockoeKeychainWrapper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShockoeKeychainWrapper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D48A3A57936C80CECF43924BE37E9D6 /* ShockoeKeychainWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShockoeKeychainWrapper-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		340DC54AAA1BC336B44A8678E876B9FB /* Pods-ShockoeKeychainWrapper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShockoeKeychainWrapper_Example-umbrella.h"; sourceTree = "<group>"; };
+		396E14D13FE793A2A65EC2DC54C16021 /* ShockoeKeychainWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShockoeKeychainWrapper-dummy.m"; sourceTree = "<group>"; };
+		3CFC0B53762194141E6522A6F8B41669 /* Pods-ShockoeKeychainWrapper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShockoeKeychainWrapper_Tests-Info.plist"; sourceTree = "<group>"; };
+		3F4BE7D9512EDD54CD8916A33201F63F /* ShockoeKeychainWrapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShockoeKeychainWrapper.xcconfig; sourceTree = "<group>"; };
+		480F33E3F756FDA3FB8BB5B4BCCAF517 /* ShockoeKeychainWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShockoeKeychainWrapper-prefix.pch"; sourceTree = "<group>"; };
+		4A6C068FA5D679A31297B7FAC4F25176 /* ShockoeKeychainWrapper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ShockoeKeychainWrapper.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		549B131412FF4E475DC9191450D73956 /* ShockoeKeychainWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShockoeKeychainWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CF2C479F07DA9EC6681BA207649F93 /* Pods-ShockoeKeychainWrapper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShockoeKeychainWrapper_Example.modulemap"; sourceTree = "<group>"; };
+		5BCB78BBECFDF95A39CA1E6F0D7A2EFF /* Pods-ShockoeKeychainWrapper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShockoeKeychainWrapper_Example-dummy.m"; sourceTree = "<group>"; };
+		62F9F5611339BB418DBC0649D7691B17 /* Pods-ShockoeKeychainWrapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShockoeKeychainWrapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		652A227F0F77DDB83122AF21B58276E6 /* Pods_ShockoeKeychainWrapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShockoeKeychainWrapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AB68C14D7925024DC6BAA159468DD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		89D247FAE23908016788498F48A9049E /* Pods-ShockoeKeychainWrapper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShockoeKeychainWrapper_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA5CBE28BC1C6F891B22407753AEA754 /* ShockoeKeychainWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ShockoeKeychainWrapper.modulemap; sourceTree = "<group>"; };
+		CD98C88E447E00FFAF8850FB198C5F12 /* Pods-ShockoeKeychainWrapper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShockoeKeychainWrapper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D04E67B123A8193900D6BA7B /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = ShockoeKeychainWrapper/Classes/KeychainWrapper.swift; sourceTree = "<group>"; };
+		D04E67B223A8193900D6BA7B /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeychainItemAccessibility.swift; path = ShockoeKeychainWrapper/Classes/KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		D17C9455F842D5C26D8602A03AF8682C /* Pods-ShockoeKeychainWrapper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShockoeKeychainWrapper_Tests-dummy.m"; sourceTree = "<group>"; };
+		D8807131EFAF6F1FC48B04D5FF87D7DD /* Pods-ShockoeKeychainWrapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShockoeKeychainWrapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DB0865ABD1B6A00F181E2C0FBF7151AB /* Pods-ShockoeKeychainWrapper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShockoeKeychainWrapper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0E7C939D342055AA040C1996E864219 /* Pods-ShockoeKeychainWrapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShockoeKeychainWrapper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E535D90C1A3CEE8A9753EB86845D7BF9 /* Pods-ShockoeKeychainWrapper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShockoeKeychainWrapper_Example-Info.plist"; sourceTree = "<group>"; };
+		E9733C43F411D0EBAF9333D8FAB74573 /* Pods-ShockoeKeychainWrapper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShockoeKeychainWrapper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ECCED108E8014D47E6F8C57D86691F9E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F6EE748A3420BBE4AD60E55EE38A14C3 /* ShockoeKeychainWrapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ShockoeKeychainWrapper-Info.plist"; sourceTree = "<group>"; };
+		F7F80D2DF4174565D336B8389824BBD5 /* Pods-ShockoeKeychainWrapper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShockoeKeychainWrapper_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48F713B501CF18EF6A1104556EC96375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219EB32A3E227A6BF855AE86E603811C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF15CA3A888A8002221B2C0F9AE9071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0875FE06A6FA030A78D93D3DC292982F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C025FCF51DDD7997E43579E90FCC8E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A8D8C65A31E9E44A2DABE12CE98D63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32A0E78BEB8E2482ACA1E8D30FFE0FEE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA5CBE28BC1C6F891B22407753AEA754 /* ShockoeKeychainWrapper.modulemap */,
+				3F4BE7D9512EDD54CD8916A33201F63F /* ShockoeKeychainWrapper.xcconfig */,
+				396E14D13FE793A2A65EC2DC54C16021 /* ShockoeKeychainWrapper-dummy.m */,
+				F6EE748A3420BBE4AD60E55EE38A14C3 /* ShockoeKeychainWrapper-Info.plist */,
+				480F33E3F756FDA3FB8BB5B4BCCAF517 /* ShockoeKeychainWrapper-prefix.pch */,
+				2D48A3A57936C80CECF43924BE37E9D6 /* ShockoeKeychainWrapper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ShockoeKeychainWrapper";
+			sourceTree = "<group>";
+		};
+		4BAF86EBC2A685061E3F10B58CAC94F6 /* ShockoeKeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				CD1A2D602064880EB9EAA410F7CC4245 /* Pod */,
+				32A0E78BEB8E2482ACA1E8D30FFE0FEE /* Support Files */,
+			);
+			name = ShockoeKeychainWrapper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		519E38092CE583685B2A97A04261BC52 /* Pods-ShockoeKeychainWrapper_Example */ = {
+			isa = PBXGroup;
+			children = (
+				55CF2C479F07DA9EC6681BA207649F93 /* Pods-ShockoeKeychainWrapper_Example.modulemap */,
+				09CEE684CDC6C9CBD593DA60EAFD37E2 /* Pods-ShockoeKeychainWrapper_Example-acknowledgements.markdown */,
+				2AEC39803496F69A3E87749CD42AD1BB /* Pods-ShockoeKeychainWrapper_Example-acknowledgements.plist */,
+				5BCB78BBECFDF95A39CA1E6F0D7A2EFF /* Pods-ShockoeKeychainWrapper_Example-dummy.m */,
+				F7F80D2DF4174565D336B8389824BBD5 /* Pods-ShockoeKeychainWrapper_Example-frameworks.sh */,
+				E535D90C1A3CEE8A9753EB86845D7BF9 /* Pods-ShockoeKeychainWrapper_Example-Info.plist */,
+				340DC54AAA1BC336B44A8678E876B9FB /* Pods-ShockoeKeychainWrapper_Example-umbrella.h */,
+				62F9F5611339BB418DBC0649D7691B17 /* Pods-ShockoeKeychainWrapper_Example.debug.xcconfig */,
+				E0E7C939D342055AA040C1996E864219 /* Pods-ShockoeKeychainWrapper_Example.release.xcconfig */,
+			);
+			name = "Pods-ShockoeKeychainWrapper_Example";
+			path = "Target Support Files/Pods-ShockoeKeychainWrapper_Example";
+			sourceTree = "<group>";
+		};
+		5B139F23DCC10CCDE1B01CB9AA9CFAC6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BAF86EBC2A685061E3F10B58CAC94F6 /* ShockoeKeychainWrapper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4C06FF52C66E897FE1F728F7C7D0970 /* Pods-ShockoeKeychainWrapper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				89D247FAE23908016788498F48A9049E /* Pods-ShockoeKeychainWrapper_Tests.modulemap */,
+				CD98C88E447E00FFAF8850FB198C5F12 /* Pods-ShockoeKeychainWrapper_Tests-acknowledgements.markdown */,
+				DB0865ABD1B6A00F181E2C0FBF7151AB /* Pods-ShockoeKeychainWrapper_Tests-acknowledgements.plist */,
+				D17C9455F842D5C26D8602A03AF8682C /* Pods-ShockoeKeychainWrapper_Tests-dummy.m */,
+				3CFC0B53762194141E6522A6F8B41669 /* Pods-ShockoeKeychainWrapper_Tests-Info.plist */,
+				E9733C43F411D0EBAF9333D8FAB74573 /* Pods-ShockoeKeychainWrapper_Tests-umbrella.h */,
+				095B7229DC6F48ECE4C35ECEA1B72643 /* Pods-ShockoeKeychainWrapper_Tests.debug.xcconfig */,
+				D8807131EFAF6F1FC48B04D5FF87D7DD /* Pods-ShockoeKeychainWrapper_Tests.release.xcconfig */,
+			);
+			name = "Pods-ShockoeKeychainWrapper_Tests";
+			path = "Target Support Files/Pods-ShockoeKeychainWrapper_Tests";
+			sourceTree = "<group>";
+		};
+		CD1A2D602064880EB9EAA410F7CC4245 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D04E67B223A8193900D6BA7B /* KeychainItemAccessibility.swift */,
+				D04E67B123A8193900D6BA7B /* KeychainWrapper.swift */,
+				ECCED108E8014D47E6F8C57D86691F9E /* LICENSE */,
+				84AB68C14D7925024DC6BAA159468DD3 /* README.md */,
+				4A6C068FA5D679A31297B7FAC4F25176 /* ShockoeKeychainWrapper.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5B139F23DCC10CCDE1B01CB9AA9CFAC6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DE2004F81DA983D2803446E1FFFCAACF /* Products */,
+				F5F5007D95E5A011EE9E7CF732C3D371 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE2004F81DA983D2803446E1FFFCAACF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05AC5E608E9AA5F39C9799DFC7F856DA /* Pods_ShockoeKeychainWrapper_Example.framework */,
+				652A227F0F77DDB83122AF21B58276E6 /* Pods_ShockoeKeychainWrapper_Tests.framework */,
+				549B131412FF4E475DC9191450D73956 /* ShockoeKeychainWrapper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5F5007D95E5A011EE9E7CF732C3D371 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				519E38092CE583685B2A97A04261BC52 /* Pods-ShockoeKeychainWrapper_Example */,
+				C4C06FF52C66E897FE1F728F7C7D0970 /* Pods-ShockoeKeychainWrapper_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15748EAFD3297E7105C3F9834EF86223 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5BC2A2CFF19941543507C7CF4ED686 /* ShockoeKeychainWrapper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7010AA5E6FBD797123B3D37EFF8332BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3491387935CE7D3E9C53C1FD39BEECEA /* Pods-ShockoeKeychainWrapper_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E119AB5409E7243AD2D8376A7DA448E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0792B4FF65AB9A2FC27CC30779045652 /* Pods-ShockoeKeychainWrapper_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		095A03C7C5FBCE634E695B019DD3B103 /* ShockoeKeychainWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5C4D2CF35533CB4718FB64776D3C02 /* Build configuration list for PBXNativeTarget "ShockoeKeychainWrapper" */;
+			buildPhases = (
+				15748EAFD3297E7105C3F9834EF86223 /* Headers */,
+				6B1E56FCE665730538B48469F2C4F07E /* Sources */,
+				C025FCF51DDD7997E43579E90FCC8E31 /* Frameworks */,
+				2EFAFB22D27C73E6884222091A3F480E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShockoeKeychainWrapper;
+			productName = ShockoeKeychainWrapper;
+			productReference = 549B131412FF4E475DC9191450D73956 /* ShockoeKeychainWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		922EABBEE2500B919EA1B9BF1652A33C /* Pods-ShockoeKeychainWrapper_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59EB9A3446CBCEC06675BEDC774C9BF8 /* Build configuration list for PBXNativeTarget "Pods-ShockoeKeychainWrapper_Tests" */;
+			buildPhases = (
+				7010AA5E6FBD797123B3D37EFF8332BD /* Headers */,
+				1C0927F42F833B58992B57D96FDD3E72 /* Sources */,
+				BBF15CA3A888A8002221B2C0F9AE9071 /* Frameworks */,
+				8C40E117AF388EBFE741A340AD0950FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A43CE947D73BF659E8DBD14B8AD177B /* PBXTargetDependency */,
+			);
+			name = "Pods-ShockoeKeychainWrapper_Tests";
+			productName = "Pods-ShockoeKeychainWrapper_Tests";
+			productReference = 652A227F0F77DDB83122AF21B58276E6 /* Pods_ShockoeKeychainWrapper_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAE3C8138EB4017AAD2239142200D007 /* Pods-ShockoeKeychainWrapper_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB9761EA0A1B36AC74E686EC36809BF /* Build configuration list for PBXNativeTarget "Pods-ShockoeKeychainWrapper_Example" */;
+			buildPhases = (
+				E119AB5409E7243AD2D8376A7DA448E8 /* Headers */,
+				B9FFAB8353E0A4F36DD83699469B169B /* Sources */,
+				48F713B501CF18EF6A1104556EC96375 /* Frameworks */,
+				42E7AA40F238BC6E7D3BC96A8C4D9BF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E729DDB13064D32381D2C8A1751EAAA8 /* PBXTargetDependency */,
+			);
+			name = "Pods-ShockoeKeychainWrapper_Example";
+			productName = "Pods-ShockoeKeychainWrapper_Example";
+			productReference = 05AC5E608E9AA5F39C9799DFC7F856DA /* Pods_ShockoeKeychainWrapper_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					FAE3C8138EB4017AAD2239142200D007 = {
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DE2004F81DA983D2803446E1FFFCAACF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE3C8138EB4017AAD2239142200D007 /* Pods-ShockoeKeychainWrapper_Example */,
+				922EABBEE2500B919EA1B9BF1652A33C /* Pods-ShockoeKeychainWrapper_Tests */,
+				095A03C7C5FBCE634E695B019DD3B103 /* ShockoeKeychainWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EFAFB22D27C73E6884222091A3F480E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E7AA40F238BC6E7D3BC96A8C4D9BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C40E117AF388EBFE741A340AD0950FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C0927F42F833B58992B57D96FDD3E72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A9344BAAED8572E31E43EA157C5A0C /* Pods-ShockoeKeychainWrapper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1E56FCE665730538B48469F2C4F07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C66155E0EF79F3BE42540FB6ACB251 /* ShockoeKeychainWrapper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FFAB8353E0A4F36DD83699469B169B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E05233C39F1D36C9FE1632C48469B0D /* Pods-ShockoeKeychainWrapper_Example-dummy.m in Sources */,
+				D04E67B323A8193A00D6BA7B /* KeychainWrapper.swift in Sources */,
+				D04E67B423A8193A00D6BA7B /* KeychainItemAccessibility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A43CE947D73BF659E8DBD14B8AD177B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ShockoeKeychainWrapper_Example";
+			target = FAE3C8138EB4017AAD2239142200D007 /* Pods-ShockoeKeychainWrapper_Example */;
+			targetProxy = 59A704E14C004184E21061346A0415D7 /* PBXContainerItemProxy */;
+		};
+		E729DDB13064D32381D2C8A1751EAAA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShockoeKeychainWrapper;
+			target = 095A03C7C5FBCE634E695B019DD3B103 /* ShockoeKeychainWrapper */;
+			targetProxy = 6A52304CF6511B0B9CEC361203C183D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1826D3FF2898049F43C0D2137B2324FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8807131EFAF6F1FC48B04D5FF87D7DD /* Pods-ShockoeKeychainWrapper_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShockoeKeychainWrapper_Tests/Pods-ShockoeKeychainWrapper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShockoeKeychainWrapper_Tests/Pods-ShockoeKeychainWrapper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		254773907D20620AB3EC3B45502C58B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E7C939D342055AA040C1996E864219 /* Pods-ShockoeKeychainWrapper_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShockoeKeychainWrapper_Example/Pods-ShockoeKeychainWrapper_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShockoeKeychainWrapper_Example/Pods-ShockoeKeychainWrapper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B77E53475765DD57D3C2CBBD81FBA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F9F5611339BB418DBC0649D7691B17 /* Pods-ShockoeKeychainWrapper_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShockoeKeychainWrapper_Example/Pods-ShockoeKeychainWrapper_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShockoeKeychainWrapper_Example/Pods-ShockoeKeychainWrapper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97DB53668E904041E00A5C811847192A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4BE7D9512EDD54CD8916A33201F63F /* ShockoeKeychainWrapper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ShockoeKeychainWrapper/ShockoeKeychainWrapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShockoeKeychainWrapper/ShockoeKeychainWrapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShockoeKeychainWrapper/ShockoeKeychainWrapper.modulemap";
+				PRODUCT_MODULE_NAME = ShockoeKeychainWrapper;
+				PRODUCT_NAME = ShockoeKeychainWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C2EEDAFBF6D4A15FE6A158DC4C7E5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 095B7229DC6F48ECE4C35ECEA1B72643 /* Pods-ShockoeKeychainWrapper_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShockoeKeychainWrapper_Tests/Pods-ShockoeKeychainWrapper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShockoeKeychainWrapper_Tests/Pods-ShockoeKeychainWrapper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5FD5346422613561D412335F5A6C3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4BE7D9512EDD54CD8916A33201F63F /* ShockoeKeychainWrapper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ShockoeKeychainWrapper/ShockoeKeychainWrapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShockoeKeychainWrapper/ShockoeKeychainWrapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShockoeKeychainWrapper/ShockoeKeychainWrapper.modulemap";
+				PRODUCT_MODULE_NAME = ShockoeKeychainWrapper;
+				PRODUCT_NAME = ShockoeKeychainWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FB9761EA0A1B36AC74E686EC36809BF /* Build configuration list for PBXNativeTarget "Pods-ShockoeKeychainWrapper_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B77E53475765DD57D3C2CBBD81FBA95 /* Debug */,
+				254773907D20620AB3EC3B45502C58B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5C4D2CF35533CB4718FB64776D3C02 /* Build configuration list for PBXNativeTarget "ShockoeKeychainWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FD5346422613561D412335F5A6C3C2 /* Debug */,
+				97DB53668E904041E00A5C811847192A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59EB9A3446CBCEC06675BEDC774C9BF8 /* Build configuration list for PBXNativeTarget "Pods-ShockoeKeychainWrapper_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2EEDAFBF6D4A15FE6A158DC4C7E5E6 /* Debug */,
+				1826D3FF2898049F43C0D2137B2324FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
