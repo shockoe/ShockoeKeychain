@@ -14,8 +14,9 @@
 		3491387935CE7D3E9C53C1FD39BEECEA /* Pods-ShockoeKeychainWrapper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9733C43F411D0EBAF9333D8FAB74573 /* Pods-ShockoeKeychainWrapper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A5BC2A2CFF19941543507C7CF4ED686 /* ShockoeKeychainWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D48A3A57936C80CECF43924BE37E9D6 /* ShockoeKeychainWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3C66155E0EF79F3BE42540FB6ACB251 /* ShockoeKeychainWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 396E14D13FE793A2A65EC2DC54C16021 /* ShockoeKeychainWrapper-dummy.m */; };
-		D04E67B323A8193A00D6BA7B /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04E67B123A8193900D6BA7B /* KeychainWrapper.swift */; };
-		D04E67B423A8193A00D6BA7B /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04E67B223A8193900D6BA7B /* KeychainItemAccessibility.swift */; };
+		D04E67B923A81CD100D6BA7B /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D04E67B623A81CD100D6BA7B /* .gitkeep */; };
+		D04E67BE23A81CFC00D6BA7B /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04E67BC23A81CFC00D6BA7B /* KeychainItemAccessibility.swift */; };
+		D04E67BF23A81CFC00D6BA7B /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04E67BD23A81CFC00D6BA7B /* KeychainWrapper.swift */; };
 		F2A9344BAAED8572E31E43EA157C5A0C /* Pods-ShockoeKeychainWrapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D17C9455F842D5C26D8602A03AF8682C /* Pods-ShockoeKeychainWrapper_Tests-dummy.m */; };
 		F4A8D8C65A31E9E44A2DABE12CE98D63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -60,8 +61,9 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA5CBE28BC1C6F891B22407753AEA754 /* ShockoeKeychainWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ShockoeKeychainWrapper.modulemap; sourceTree = "<group>"; };
 		CD98C88E447E00FFAF8850FB198C5F12 /* Pods-ShockoeKeychainWrapper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShockoeKeychainWrapper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D04E67B123A8193900D6BA7B /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = ShockoeKeychainWrapper/Classes/KeychainWrapper.swift; sourceTree = "<group>"; };
-		D04E67B223A8193900D6BA7B /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeychainItemAccessibility.swift; path = ShockoeKeychainWrapper/Classes/KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		D04E67B623A81CD100D6BA7B /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D04E67BC23A81CFC00D6BA7B /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		D04E67BD23A81CFC00D6BA7B /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 		D17C9455F842D5C26D8602A03AF8682C /* Pods-ShockoeKeychainWrapper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShockoeKeychainWrapper_Tests-dummy.m"; sourceTree = "<group>"; };
 		D8807131EFAF6F1FC48B04D5FF87D7DD /* Pods-ShockoeKeychainWrapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShockoeKeychainWrapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DB0865ABD1B6A00F181E2C0FBF7151AB /* Pods-ShockoeKeychainWrapper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShockoeKeychainWrapper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -177,8 +179,7 @@
 		CD1A2D602064880EB9EAA410F7CC4245 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D04E67B223A8193900D6BA7B /* KeychainItemAccessibility.swift */,
-				D04E67B123A8193900D6BA7B /* KeychainWrapper.swift */,
+				D04E67B523A81CD100D6BA7B /* Classes */,
 				ECCED108E8014D47E6F8C57D86691F9E /* LICENSE */,
 				84AB68C14D7925024DC6BAA159468DD3 /* README.md */,
 				4A6C068FA5D679A31297B7FAC4F25176 /* ShockoeKeychainWrapper.podspec */,
@@ -195,6 +196,17 @@
 				DE2004F81DA983D2803446E1FFFCAACF /* Products */,
 				F5F5007D95E5A011EE9E7CF732C3D371 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D04E67B523A81CD100D6BA7B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D04E67BC23A81CFC00D6BA7B /* KeychainItemAccessibility.swift */,
+				D04E67BD23A81CFC00D6BA7B /* KeychainWrapper.swift */,
+				D04E67B623A81CD100D6BA7B /* .gitkeep */,
+			);
+			name = Classes;
+			path = ShockoeKeychainWrapper/Classes;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -356,6 +368,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04E67B923A81CD100D6BA7B /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,9 +402,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04E67BF23A81CFC00D6BA7B /* KeychainWrapper.swift in Sources */,
 				0E05233C39F1D36C9FE1632C48469B0D /* Pods-ShockoeKeychainWrapper_Example-dummy.m in Sources */,
-				D04E67B323A8193A00D6BA7B /* KeychainWrapper.swift in Sources */,
-				D04E67B423A8193A00D6BA7B /* KeychainItemAccessibility.swift in Sources */,
+				D04E67BE23A81CFC00D6BA7B /* KeychainItemAccessibility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
