@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ShockoeKeychainWrapper: 4f22099d51211c39819c54a383e15e1350d9ccbe
+  ShockoeKeychainWrapper: f30431825f24bb99a97ab0f5c6fcd513cb65a6a4
 
 PODFILE CHECKSUM: 3c12485bcf7eaa4e0b08ce3f7ea1cc79fb902920
 

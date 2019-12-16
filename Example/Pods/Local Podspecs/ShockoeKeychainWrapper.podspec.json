@@ -1,22 +1,25 @@
 {
   "name": "ShockoeKeychainWrapper",
   "version": "0.1.0",
-  "summary": "A short description of ShockoeKeychainWrapper.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Justin Boswell/ShockoeKeychainWrapper",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "summary": "A simple wrapper for the iOS Keychain to allow you to use it in a similar fashion to UserDefaults. Supports Access Groups. Written in Swift.",
+  "description": "A simple wrapper for the iOS Keychain to allow you to use it in a similar fashion to UserDefaults. Supports Access Groups. Written in Swift. Cloned copy of the Swift Keychain wrapper that is maintained internally.'",
+  "module_name": "ShockoeKeychainWrapper",
+  "homepage": "https://bitbucket.org/shockoe/shockoekeychainwrapper",
+  "license": "MIT",
   "authors": {
     "Justin Boswell": "justin.boswell@shockoe.com"
   },
   "source": {
-    "git": "https://github.com/Justin Boswell/ShockoeKeychainWrapper.git",
+    "git": "https://bitbucket.org/shockoe/shockoekeychainwrapper.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "ShockoeKeychainWrapper/Classes/**/*"
+  "swift_versions": [
+    "4.2",
+    "5.0"
+  ],
+  "source_files": "ShockoeKeychainWrapper/Classes/**/*",
+  "swift_version": "5.0"
 }
