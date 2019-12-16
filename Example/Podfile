@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ShockoeKeychainWrapper_Example' do
+  pod 'ShockoeKeychainWrapper', :path => '../'
+
+  target 'ShockoeKeychainWrapper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
