@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://bitbucket.org/shockoe/shockoekeychainwrapper'
   s.license          = 'MIT'
   s.author           = { 'Justin Boswell' => 'justin.boswell@shockoe.com' }
-  s.source           = { :git => 'https://bitbucket.org/shockoe/shockoekeychainwrapper.git', :tag => s.version }
+  s.source           = { :git => 'git@bitbucket.org:shockoe/shockoekeychainwrapper.git', :tag => s.version }
   s.ios.deployment_target = '10.0'
   s.swift_version = ['4.2', '5.0']
-  s.source_files = 'ShockoeKeychainWrapper/Pod/Classes/**/*'
+  s.source_files = 'ShockoeKeychainWrapper/Classes/**/*'
 end
