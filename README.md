@@ -12,17 +12,10 @@ The Shockoe Keychain Wrapper is a clone of the [SwiftKeychainWrapper](https://gi
 
 ShockoeKeychainWrapper is available through [CocoaPods](https://cocoapods.org).
 
-To install it, first enter the pod repo add command into your terminal:
-```bash
-pod repo add ShockoeCocoaPods git@bitbucket.org:shockoe/shockoecocoapods.git
-```
-
-The repositories where the source code is hosted is private. You will need to have your ssh key added for the organization in order to install them.
-
 Next, simply add the following lines to your Podfile:
 
 ```ruby
-source 'git@bitbucket.org:shockoe/shockoecocoapods.git'
+source 'https://github.com/shockoe/ShockoePods.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 ...
